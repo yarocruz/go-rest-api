@@ -1,9 +1,10 @@
 POST http://localhost:8080/events
 content-type: application/json
+authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QyQG1haWwuY29tIiwiZXhwIjoxNzExNjQ2MzY4LCJ1c2VySWQiOjJ9.z272m8G9RUKu0NoFQKkQfCCc96G1g6Y0LEqJToKxzus
 
 {
-    "name": "Test Event 2",
-	"description": "Another Test Event",
+    "name": "Another Event",
+	"description": "Should have correct id now",
 	"location": "Atlanta",
 	"datetime": "2024-01-01T15:30:00.000Z"
 }
